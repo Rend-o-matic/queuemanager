@@ -1,0 +1,29 @@
+{
+  "name": "choirless_queuemanager",
+  "version": "1.0.0",
+  "description": "Queue service for Choirless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "standard": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Choirless/choirless_queuemanage.git"
+  },
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Choirless/choirless_queuemanage/issues"
+  },
+  "homepage": "https://github.com/Choirless/choirless_queuemanage#readme",
+  "dependencies": {
+    "choirlessapi": "github:Choirless/choirlessapi",
+    "nano": "apache/couchdb-nano#axios",
+    "renderer": "github:Choirless/renderer"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
